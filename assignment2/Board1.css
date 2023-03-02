@@ -1,0 +1,70 @@
+
+body{
+  margin: 0px;
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: hidden;
+  background:#313131;
+  align-items: center;
+ 
+}
+#canvas {
+  border: 3px solid black;
+  margin: 0 auto;
+  background:white;
+  
+  
+}
+
+
+h1{
+  margin-bottom: 10px;
+  align-self:center ;
+}
+.tools{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.tt{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.tools .button{
+  align-self:center ;
+  width:100px;
+  height:40px;
+  border:2px solid white;
+  cursor: pointer;
+  color: white;
+  background: #222;
+  font-weight: bold;
+  margin: 0 10px;
+}
+.tools .button:hover {
+  color:gold;
+  background-color: transparent;
+
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size:50px;
+}
+a:visited {
+  color:white;
+  background-color: transparent;
+  
+}
+a:hover {
+  color:gold;
+  background-color: transparent;
+  
+}

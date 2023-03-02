@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Board2.css"/>
+    <title>BOARD2</title>
+</head>
+<a href="index.html">HOME</a>
+<body>
+  <div class="tt">
+    <h1>DRAWING BOARD 3</h1>
+  </div>
+  
+    <div class="field">
+      <div class="tt">
+      <canvas id="canvas"></canvas>
+ </div>
+      <div class="tools">
+        <button onClick="undo_last()" class="button">Undo</button>
+        <button onClick="clear_canvas()" type="button" class="button">RESET</button>
+       
+
+
+        <div onClick="change_color(this)" class="color-field" style="background: red;"></div>
+        <div onClick="change_color(this)" class="color-field" style="background: royalblue;"></div>
+        <div onClick="change_color(this)" class="color-field" style="background: yellow;"></div>
+        <div onClick="change_color(this)" class="color-field" style="background: green;"></div>
+
+
+        <input onInput="draw_color = this.value" type="color" class="color-field">
+
+        <input onInput = "draw_width = this.value" type="range" min="1" max="10" class="pen-range">
+
+
+       
+        
+      </div>
+      
+    </div>
+    <script src="Board2.js"></script>
+  </body>
+</html>
